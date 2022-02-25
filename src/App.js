@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './styles/App.scss';
 import Masthead from './components/Masthead/index';
 import Button from './components/Button/index';

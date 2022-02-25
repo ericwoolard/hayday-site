@@ -4,33 +4,47 @@ section {
     background: url('../../assets/images/concert-background.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: center;
+    background-position: bottom center;
     padding: 120px 60px 40px 60px;
     .logo {
         margin: 0 auto;
         text-align: center;
         width: 100%;
         img {
-            width: 1000px;
+            width: 100%;
+            @media(min-width: 1200px) {
+                width: 1000px;
+            }
         }
     }
     .title {
         font-family: 'baron_regular';
         letter-spacing: 4px;
-        margin: 42px 0 auto;
-        font-size: 52px;
-        line-height: 62px; 
         color: white; 
         text-shadow: 1px 4px 16px rgba(255,25,38,0.7);
         font-weight: 600;
         text-align: center;
+        // responsive styles
+        margin: 16px 0 auto;
+        font-size: 32px;
+        line-height: 42px; 
+        @media(min-width: 768px) {
+            margin: 42px 0 auto;
+            font-size: 52px;
+            line-height: 62px;
+        }
     }
     .countdown {
         margin: 72px auto 0 auto;
         display: flex; 
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center; 
-        width: 800px; 
+        width: 100%; 
+        @media(min-width: 768px) {
+            margin: 72px auto 0 auto;
+            flex-direction: row;
+            width: 800px;
+        }
         h4 {
             font-family: 'baron_regular';
             letter-spacing: 3px;
@@ -44,7 +58,16 @@ section {
             display: block; 
             padding: 0px 40px;
             &:nth-child(n+1):not(:last-child) {
+                border-right: none;
+            }
+            &:nth-child(n+1) {
+                margin-top: 36px;
+            }
+            @media(min-width: 768px) {
+                padding: 0px 40px;
+                &:nth-child(n+1):not(:last-child) {
                 border-right: solid 3px #BDD635;
+            }
             }
             span {
                 margin-top: 12px;

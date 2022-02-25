@@ -10,7 +10,7 @@ class Masthead extends React.Component {
 				<div class="logo">
 					<img src={logo} alt="" />
 				</div>
-				<h1 class="title">location placeholder | april 23, 2022</h1>
+				<h1 class="title">ms horse park starkville, ms | april 23, 2022</h1>
 				<TicketButton />
 				<div class="countdown">
 					<h4>
