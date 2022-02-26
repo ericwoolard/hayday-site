@@ -1,0 +1,58 @@
+.ticket-card {
+	position: relative;
+	background: white; 
+	border-radius: 12px; 
+	text-align: center;
+	padding: 56px 24px 42px 24px; 
+	width: 80%;
+	@media(min-width: 1200px) {
+		width: 300px;
+	}
+	&::before {
+		display: block;
+		border-radius: 8px;
+		content: '';
+		position: absolute; 
+		left: 12px;
+		top: 12px;
+		width: calc(100% - 24px);
+		height: calc(100% - 24px);
+		border: solid 1px black; 
+	}
+
+	h3 {
+		font-family: 'frontageoutline';
+		text-transform: uppercase;
+		font-size: 56px; 
+	}
+	.sub-text {
+		font-weight: 700;
+		margin-top: 24px;
+		font-family: 24px; 
+		font-style: italic; 
+		letter-spacing: 1px;
+	}
+	.price {
+		color: rgba(225,61,48);
+		margin-top: 32px;
+		font-size: 42px; 
+		letter-spacing: 2px;
+		font-family: 'baron_regular'
+	}
+	.purchase-btn {
+		margin: 48px auto 0 auto;
+		display: block; 
+		position: relative;
+		z-index: 100;
+		text-decoration: none;
+		background: #BDD635;
+		color: white; 
+		font-family: 'baron_regular';
+		padding: 16px; 
+		text-align: center;
+		width: 100%;
+		max-width: 180px;
+		color: white;
+		letter-spacing: 2px;
+	}
+}

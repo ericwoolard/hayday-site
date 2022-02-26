@@ -15,7 +15,14 @@
        url('../assets/fonts/baron_neue-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face {
+  font-family: 'frontageoutline';
+  src: url('../assets/fonts/frontage-outline-webfont.woff2') format('woff2'),
+       url('../assets/fonts/frontage-outline-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 

@@ -1,0 +1,43 @@
+.countdown {
+	margin: 72px auto 0 auto;
+	display: flex; 
+	flex-direction: column;
+	justify-content: center; 
+	width: 100%; 
+	@media(min-width: 768px) {
+			margin: 72px auto 0 auto;
+			flex-direction: row;
+			width: 800px;
+	}
+	h4 {
+			font-family: 'baron_regular';
+			letter-spacing: 3px;
+			color: white;
+			font-size: 72px;
+			display: flex; 
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			font-weight: 700;
+			display: block; 
+			padding: 0px 40px;
+			&:nth-child(n+1):not(:last-child) {
+					border-right: none;
+			}
+			&:nth-child(n+1) {
+					margin-top: 36px;
+			}
+			@media(min-width: 768px) {
+					padding: 0px 40px;
+					&:nth-child(n+1):not(:last-child) {
+					border-right: solid 3px #BDD635;
+			}
+			}
+			span {
+					margin-top: 12px;
+					font-weight: normal;
+					display: block;
+					font-size: 32px;
+			}
+	}
+}

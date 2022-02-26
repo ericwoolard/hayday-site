@@ -1,0 +1,27 @@
+nav {
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 100%;
+    max-width: 1200px; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    margin: 0 auto;
+    background: transparent;
+    li {
+        font-family: 'baron_regular';
+        list-style: none;
+        a {
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
