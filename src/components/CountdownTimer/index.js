@@ -14,21 +14,21 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   } else {
     // Render a countdown
     return (
-			<div class="countdown">
-				<h4>
-					{days}<span>days</span>
-				</h4>
-				<h4>
-					{hours}<span>hrs</span> 
-				</h4>
-				<h4>
-					{minutes}<span>mins</span>
-				</h4>
-				<h4>
-					{seconds}<span>secs</span>
-				</h4>
-			</div>
-		)
+		<div className="countdown">
+			<h4>
+				{days}<span>days</span>
+			</h4>
+			<h4>
+				{hours}<span>hrs</span> 
+			</h4>
+			<h4>
+				{minutes}<span>mins</span>
+			</h4>
+			<h4>
+				{seconds}<span>secs</span>
+			</h4>
+		</div>
+	)
   }
 };
 

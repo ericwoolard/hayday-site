@@ -7,11 +7,11 @@ import './style.scss';
 class Masthead extends React.Component {
 	render() {
 		return (
-			<section class="masthead">
-				<div class="logo">
+			<section className="masthead">
+				<div className="logo">
 					<img src={logo} alt="" />
 				</div>
-				<h1 class="title">ms horse park starkville, ms | april 23, 2022</h1>
+				<h1 className="title">ms horse park starkville, ms | april 23, 2022</h1>
 				<TicketButton />
 				<CountdownTimer />
 			</section>

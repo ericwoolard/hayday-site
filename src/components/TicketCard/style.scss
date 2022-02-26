@@ -1,23 +1,28 @@
 .ticket-card {
 	position: relative;
-	background: white; 
+	background: #000; 
+	color: #fff;
 	border-radius: 12px; 
 	text-align: center;
 	padding: 56px 24px 42px 24px; 
 	width: 80%;
+	background-clip: padding-box;
+	border: solid 5px transparent;
+	box-sizing: border-box;
 	@media(min-width: 1200px) {
 		width: 300px;
 	}
-	&::before {
-		display: block;
-		border-radius: 8px;
+	&:before {
 		content: '';
+		border-radius: inherit;
 		position: absolute; 
-		left: 12px;
-		top: 12px;
-		width: calc(100% - 24px);
-		height: calc(100% - 24px);
-		border: solid 1px black; 
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: -5px;
+		background: linear-gradient(to right, red, orange, yellow); 
+		z-index: -1;
 	}
 
 	h3 {
@@ -45,14 +50,12 @@
 		position: relative;
 		z-index: 100;
 		text-decoration: none;
-		background: #BDD635;
-		color: white; 
+		background: #BDD635; 
 		font-family: 'baron_regular';
 		padding: 16px; 
 		text-align: center;
 		width: 100%;
 		max-width: 180px;
-		color: white;
 		letter-spacing: 2px;
 	}
 }
