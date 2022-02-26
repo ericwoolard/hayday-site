@@ -16,7 +16,7 @@ class InfoSex extends React.Component {
         const showButton = () => {
             if(button) {
                 console.log('here if ', button);
-                return <a href="" className="purchase-btn">Test</a>;
+                return <a href={this.props.url} target="_blank" className="purchase-btn">Learn More</a>;
             } else {
                 return null
             }
