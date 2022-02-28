@@ -1,0 +1,20 @@
+.flier-container {
+    background: url('../../assets/images/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100%;
+    top: 0; right: 0; bottom: 0; left: 0;
+    position: relative;
+    justify-content: center;
+    padding: 120px 0;
+}
+.lineup-flier {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+}

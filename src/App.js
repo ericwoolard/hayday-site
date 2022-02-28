@@ -1,6 +1,7 @@
 import './styles/App.scss';
 import Nav from './components/Nav/index';
 import Masthead from './components/Masthead/index';
+import LineupFlier from './components/LineupFlier/index';
 import TicketCard from './components/TicketCard/index';
 import InfoSex from './components/InfoSex/index';
 
@@ -11,6 +12,9 @@ function App() {
       <header className="App-header">
         <Masthead />
       </header>
+      <section className="flier-section">
+        <LineupFlier />
+      </section>
       <section className="purchase" id="purchase">
         <div className="container">
           <TicketCard 
@@ -67,9 +71,6 @@ function App() {
           </InfoSex>
       </section>
 
-      <header className="App-header">
-        <Masthead />
-      </header>
       <header className="App-header">
         <Masthead />
       </header>
