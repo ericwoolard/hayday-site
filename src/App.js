@@ -15,7 +15,7 @@ function App() {
       <section className="flier-section" id="lineup">
         <LineupFlier />
       </section>
-      <section className="purchase" id="purchase">
+      <section className="purchase" id="tickets">
         <div className="container">
           <TicketCard 
             tier="GA"

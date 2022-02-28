@@ -9,7 +9,7 @@ class Nav extends React.Component {
                     <a href="#lineup">lineup</a>
                 </li>
                 <li>
-                    <a href="#purchase">tickets</a>
+                    <a href="#tickets">tickets</a>
                 </li>
                 <li>
                     <a href="#details">venue</a>
