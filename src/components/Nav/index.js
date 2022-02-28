@@ -6,7 +6,7 @@ class Nav extends React.Component {
 		return ( 
             <nav>
                 <li>
-                    <a href="#">lineup</a>
+                    <a href="#lineup">lineup</a>
                 </li>
                 <li>
                     <a href="#purchase">tickets</a>
