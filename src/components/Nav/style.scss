@@ -1,27 +1,85 @@
-nav {
-    position: absolute; 
+.navigation{
+    width: 100%;
+    height: 110px;
+}
+
+.navigation, .navigation ul{
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 0;
-    width: 100%;
-    max-width: 1200px; 
-    display: flex; 
+    display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    top: 0;
+    width: 100%;
     height: 110px;
+    max-width: 85%;
+    flex-wrap: wrap;
     margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
     background: transparent;
-    li {
-        font-family: 'baron_regular';
-        list-style: none;
-        a {
-            color: white;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            &:hover {
-                color: black;
-            }
-        }
+}
+.navigation ul li{
+    list-style: none;
+    padding-right: 10px;
+    font-family: 'baron_regular';
+}
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    &:hover {
+      color: black;
     }
 }
+.hamburger{
+    display: none;
+    z-index: 6;
+}
+.social-icons a {
+    display: inline-block;
+}
+.social-icons img {
+    height: 28px;
+    padding: 0 10px;
+}
+@media (max-width: 767px){
+    .hamburger{
+        display: flex;
+        padding-top: 10px;
+        margin-left: 0px;
+        z-index: 6;
+        position: absolute;
+        top: 10px
+    }
+    .navigation {
+        left: 47%;
+        transform: translateX(-50%);
+        position: absolute;
+        height: 55vh;
+        width: 100%;
+    }
+    .navigation ul {
+        background-color: #ed6e3b;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 0px;
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .navigation ul li:nth-child(n+1) {
+        margin-top: 24px;
+    }
+
+}
+

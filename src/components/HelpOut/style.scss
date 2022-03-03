@@ -1,0 +1,35 @@
+.help-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.help-bg {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+.help-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 100;
+    text-decoration: none;
+    background: rgba(37, 37, 37, 0.8);
+    font-family: 'baron_regular';
+    padding: 12px 24px; 
+    text-align: center;
+    width: 100%;
+    max-width: 180px;
+    letter-spacing: 2px;
+
+    &:hover {
+        background-color: rgba(37, 37, 37, 0.9);
+    }
+}

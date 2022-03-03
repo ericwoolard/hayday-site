@@ -1,11 +1,11 @@
 .countdown {
-	margin: 72px auto 0 auto;
+	margin: 30px auto 0 auto;
 	display: flex; 
 	flex-direction: column;
 	justify-content: center; 
 	width: 100%; 
 	@media(min-width: 768px) {
-			margin: 72px auto 0 auto;
+			margin: 30px auto 0 auto;
 			flex-direction: row;
 			width: 800px;
 	}
@@ -13,7 +13,7 @@
 			font-family: 'baron_regular';
 			letter-spacing: 3px;
 			color: white;
-			font-size: 72px;
+			font-size: 52px;
 			display: flex; 
 			flex-direction: column;
 			justify-content: center;
