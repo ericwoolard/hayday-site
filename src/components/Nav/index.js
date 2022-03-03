@@ -60,7 +60,7 @@ export default function Nav() {
             <style jsx>{`
                 @media (max-width: 767px){
                     body {
-                        overflow: hidden;
+                        overflow: ${hamburgerOpen ? 'hidden' : 'none'};
                     }
                     .navigation ul{
                         display: ${hamburgerOpen ? 'flex' : 'none'};
