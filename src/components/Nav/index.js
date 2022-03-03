@@ -59,8 +59,11 @@ export default function Nav() {
 
             <style jsx>{`
                 @media (max-width: 767px){
+                    body {
+                        overflow: hidden;
+                    }
                     .navigation ul{
-                        display: ${hamburgerOpen ? 'inline' : 'none'};
+                        display: ${hamburgerOpen ? 'flex' : 'none'};
                     }
                 }
             `}</style>
