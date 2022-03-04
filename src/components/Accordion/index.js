@@ -21,9 +21,10 @@ export default function example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                    Parking will be provided on a first come, first serve basis. 
-                    Passes will be sold online prior to the event or until 
-                    capacity has been reached.
+                    Parking will be provided on a first come, first served basis. 
+                    Passes will ONLY be sold on-site until capacity has been reached.
+                    Parking passes are included with a VIP ticket, or available for $15
+                    on-site.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -35,13 +36,25 @@ export default function example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                    So you’ve missed out on parking, but not to worry you still have a 
-                    couple of options. 
-                    Option 1 - try to carpool with a friend who already has a pass
-                    Option 2 - Bus passes will be sold online as an add on to the GA passes. 
-                    1 bus pass will get you to and from the event.
+                    So you’ve missed out on parking, but you still have a couple of options.<br/>
+                    Option 1 - try to carpool with a friend who already has a pass.<br/>
+                    Option 2 - Catch one of the buses running to and from the event. Both GA and
+                    VIP tickets include a free bus pass!
+                     <br/>
                     Option 3 - check availability for Uber/Lyft or local cab company that 
                     you trust to pick you up and deliver you safely 
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    Where does the bus pick up and drop off from?
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>The bus will pickup all day on fraternity row in the cotton district, and will drop you 
+                    off at the venue.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -69,7 +82,7 @@ export default function example() {
                     <p>
                     Unfortunately, no. With the MS Horse park being an extension of MSU you 
                     should treat it like you would any other university sporting event. 
-                    Same rules apply. We do offer accommodations for those who have health 
+                    Same rules apply. <br/>We do offer accommodations for those who have health 
                     related requirements. If this is the case, please let us know so that we 
                     can notify gate security to allow entry.
                     </p>
@@ -78,12 +91,28 @@ export default function example() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    What can I bring to the festival?
+                    What items are not allowed at the festival?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                    Please refer to the list of prohibited items below.
+                    The following items are prohibited:<br/> 
+                    • No outside food or drinks of any kind <br/>
+                    • No coolers of any kind<br/>
+                    • No tents, hammocks or cannopies. Lawn chairs and blankets ARE allowed <br/>
+                    • No bicycles, skateboards, scooters, etc<br/>
+                    • No weapons of any kind <br/>
+                    • No pets unless you provide ESA documents <br/>
+                    • No smoking allowed on site <br/>
+                    • No generators <br/>
+                    • No portable lasers or laser pens <br/>
+                    • No illegal substances <br/>
+                    • No drones, professional cameras, or cameras with removable lenses<br/><br/>
+                    • If you have something you want to bring and are unsure if it will be allowed, please email us 
+                    at haydaymusicfest@gmail.com <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -97,7 +126,7 @@ export default function example() {
                     <p>
                     There will be no animals allowed inside the gates of the horse park 
                     unless proper ESA documentation is provided for health reasons at the 
-                    point of entry. The only exception to this rule is that no animals, 
+                    point of entry. <br/>The only exception to this rule is that no animals, 
                     including ESA's, shall be allowed to travel by bus to or from the event. 
                     This is for the safety of the animal.
                     </p>
@@ -111,7 +140,9 @@ export default function example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                    Yes, just make sure to get the over 21 wristband before you make a purchase.
+                    Yes, just make sure to get the over 21 wristband before you make a purchase. &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -124,7 +155,7 @@ export default function example() {
                 <AccordionItemPanel>
                     <p>
                     The lost and found will be at the security command center located at the 
-                    center of the site.
+                    center of the site.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>

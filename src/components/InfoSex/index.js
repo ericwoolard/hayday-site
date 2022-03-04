@@ -22,7 +22,7 @@ class InfoSex extends React.Component {
             }
         }
 		return (
-            <div className={'info-sex ' + (this.props.align)}>
+            <div className={'info-sex ' + (this.props.align)} id={this.props.id}>
                 <div className="img-container">
                     <img src={require('../../assets/images/' + `${this.props.img}`)} alt={this.props.imgAlt} />
                 </div>
