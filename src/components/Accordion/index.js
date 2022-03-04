@@ -53,7 +53,7 @@ export default function example() {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                    <p>The bus will pickup all day on fraternity row in the cotton district, and will drop you 
+                    <p>The bus will pickup all day on fraternity row and the cotton district, and will drop you 
                     off at the venue.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </p>
                 </AccordionItemPanel>
