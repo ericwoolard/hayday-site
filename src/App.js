@@ -25,12 +25,12 @@ function App() {
           <TicketCard 
             tier="GA"
             price="$40"
-            url="https://www.ticketfairy.com/event/hayday-fest/"
+            url="https://bit.ly/haydayfesttickets"
           />
           <TicketCard 
             tier="VIP"
             price="$80"
-            url="https://www.ticketfairy.com/event/hayday-fest/"
+            url="https://bit.ly/haydayfesttickets"
           />
         </div>
       </section>
