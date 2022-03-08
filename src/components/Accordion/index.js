@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 import {
     Accordion,
     AccordionItem,
@@ -54,7 +55,7 @@ export default function example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>The bus will pickup all day on fraternity row and the cotton district, and will drop you 
-                    off at the venue.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    off at the venue.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -95,25 +96,23 @@ export default function example() {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                    <p>
-                    The following items are prohibited:<br/> 
-                    • No outside food or drinks of any kind <br/>
-                    • No coolers of any kind<br/>
-                    • No tents, hammocks or cannopies. Lawn chairs and blankets ARE allowed <br/>
-                    • No bicycles, skateboards, scooters, etc<br/>
-                    • No weapons of any kind <br/>
-                    • No pets unless you provide ESA documents <br/>
-                    • No smoking allowed on site <br/>
-                    • No generators <br/>
-                    • No portable lasers or laser pens <br/>
-                    • No illegal substances <br/>
-                    • No drones, professional cameras, or cameras with removable lenses<br/><br/>
-                    • If you have something you want to bring and are unsure if it will be allowed, please email us 
-                    at haydaymusicfest@gmail.com <br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </p>
+                        <p>The following items are prohibited:</p>
+                        <br/>
+                        <ul class="accordion-list">
+                            <li>No outside food or drinks of any kind</li>
+                            <li>No coolers of any kind</li>
+                            <li>No tents, hammocks or cannopies. Lawn chairs and blankets ARE allowed</li>
+                            <li>No bicycles, skateboards, scooters, etc</li>
+                            <li>No weapons of any kind</li>
+                            <li>No pets unless you provide ESA documents</li>
+                            <li>No smoking allowed on site</li>
+                            <li>No generators</li>
+                            <li>No portable lasers or laser pens</li>
+                            <li>No illegal substances</li>
+                            <li>No drones, professional cameras, or cameras with removable lenses</li>
+                            <li>If you have something you want to bring and are unsure if it will be allowed, please&nbsp;<a className="link" href="mailto:haydaymusicfest@gmail.com">email&nbsp;us</a></li>
+                        </ul>
+                   
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -141,8 +140,7 @@ export default function example() {
                 <AccordionItemPanel>
                     <p>
                     Yes, just make sure to get the over 21 wristband before you make a purchase. &nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                   
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -155,7 +153,7 @@ export default function example() {
                 <AccordionItemPanel>
                     <p>
                     The lost and found will be at the security command center located at the 
-                    center of the site.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    center of the site.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>

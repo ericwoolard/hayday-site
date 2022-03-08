@@ -1,0 +1,22 @@
+ul.accordion-list {
+    padding: 0 0 0 32px;
+    li {
+        list-style: disc;
+        line-height: 32px;
+        .link {
+            color: #e13d30;
+        }
+    }
+    p, li {
+        width: 100%;
+        line-height: 32px;
+        color: black;
+    }    
+}
+p {
+    line-height: 32px;
+}
+
+.accordion__button {
+    width: inherit !important;
+}

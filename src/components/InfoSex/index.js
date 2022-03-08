@@ -4,25 +4,22 @@ import './style.scss';
 class InfoSex extends React.Component {
     constructor(props) {
         super()
-        console.log(props.buttonText);
         this.state = {button: props.buttonText}
     }
     static getDerivedStateFromProps(state) {
-        console.log(state)
         return {state}
     }
 	render() {
         let button = this.state.button
         const showButton = () => {
             if(button) {
-                console.log('here if ', button);
-                return <a href={this.props.url} target="_blank" className="purchase-btn">Learn More</a>;
+                return <a href={this.props.url} target="_blank" className="purchase-btn">{this.props.buttonText}</a>;
             } else {
                 return null
             }
         }
 		return (
-            <div className={'info-sex ' + (this.props.align)} id={this.props.id}>
+            <div className={this.props.className} id={this.props.id}>
                 <div className="img-container">
                     <img src={require('../../assets/images/' + `${this.props.img}`)} alt={this.props.imgAlt} />
                 </div>

@@ -6,7 +6,7 @@
     max-width: 1200px;
     margin: 0 auto;
     @media(min-width: 1200px) {
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: flex-start;
         &.left {
             flex-direction: row;
@@ -37,6 +37,7 @@
         position: relative;
         @media(min-width: 1200px) {
             margin-top: 0;
+            width: 100%;
         }
         &:before {
             content: '';

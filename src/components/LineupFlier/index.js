@@ -6,7 +6,7 @@ class LineupFlier extends React.Component {
     render() {
         return (
             <section className="flier-container">
-                <img src={flier} class="lineup-flier"></img>
+                <img src={flier} className="lineup-flier"></img>
             </section>
         )
 	}

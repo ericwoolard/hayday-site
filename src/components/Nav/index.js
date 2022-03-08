@@ -38,12 +38,12 @@ export default function Nav() {
                     </li> 
                     <li className='social-icons'>
                         <a href="https://www.facebook.com/Hayday-Music-Fest-112492490933609" className='socials' target="_blank">
-                            <div class="social-icons">
+                            <div className="social-icons">
                                 <img src={fb} />
                             </div>
                         </a>
                         <a href="https://www.instagram.com/hayday_musicfest/" className='socials' target="_blank">
-                            <div class="social-icons">
+                            <div className="social-icons">
                                 <img src={ig} />
                             </div>
                         </a>
@@ -57,7 +57,7 @@ export default function Nav() {
 
             
 
-            <style jsx>{`
+            <style jsx="true">{`
                 @media (max-width: 767px){
                     body {
                         overflow: ${hamburgerOpen ? 'hidden' : 'none'};
