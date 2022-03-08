@@ -4,7 +4,7 @@ import './style.scss';
 class TicketButton extends React.Component {
 	render() {
 		return (
-            <a href="https://www.ticketfairy.com/event/hayday-fest/" className="tickets">
+            <a href="https://bit.ly/haydayfesttickets" className="tickets">
                 <span className="icon"></span> <span className="text">Tickets!</span>
             </a>
         )

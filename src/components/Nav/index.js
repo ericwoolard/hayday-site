@@ -14,7 +14,7 @@ export default function Nav() {
     return ( 
         <div>
             <div className="navigation">
-                <ul>
+                <ul onClick={toggleHamburger}>
                     {/* <li>
                         <a href="#lineup">lineup</a>
                     </li> */}
@@ -22,19 +22,19 @@ export default function Nav() {
                         <a href="#tickets">tickets</a>
                     </li>
                     <li>
-                        <a href="#details">venue</a>
+                        <a href="#venue">venue</a>
                     </li>
                     {/* <li>
                         <a href="#">merch</a>
                     </li> */}
                     <li>
-                        <a href="#">faq</a>
+                        <a href="#faq">faq</a>
                     </li>
                     <li>
-                        <a href="#">sponsors/vendors</a>
+                        <a href="#help">sponsors/vendors</a>
                     </li>
                     <li>
-                        <a href="#">contact</a>
+                        <a href="#contact">contact</a>
                     </li> 
                     <li className='social-icons'>
                         <a href="https://www.facebook.com/Hayday-Music-Fest-112492490933609" className='socials' target="_blank">
@@ -64,6 +64,9 @@ export default function Nav() {
                     }
                     .navigation ul{
                         display: ${hamburgerOpen ? 'flex' : 'none'};
+                    }
+                    .masthead .tickets {
+                        z-index: ${hamburgerOpen ? '-1' : '1'};
                     }
                 }
             `}</style>

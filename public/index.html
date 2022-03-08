@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="The Hangout Music Festival is an annual three-day music festival held at the public beaches of Gulf Shores directly accompanying its sister restaurant The Hangout."
+      content="HayDay Music Festivsl is the biggest annual music festival in Starkville, MS"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,7 +24,43 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>HayDay Fest</title>
+    <title>HayDay Music Festival</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-190P8MG1D0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-190P8MG1D0');
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Hayday Music Festival",
+        "startDate": "2022-04-23T14:00-05:00",
+        "endDate": "2022-04-23T23:59-05:00",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+          "@type": "Place",
+          "name": "Mississippi Horse Park",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "869 East Poor House Road",
+            "addressLocality": "Starkville",
+            "postalCode": "39759",
+            "addressRegion": "MS",
+            "addressCountry": "US"
+          }
+        },
+        "image": [
+          "https://d3lcdr963b5ubl.cloudfront.net/uploads/RyfwzCTDqG8qrMpeiocwg4qOWY6bV6IYtEsE3ayDsAnc2im7HBC2oO2Zx1kvIQw2.png"
+         ],
+        "description": "HayDay Music Festival is an annual music festival held in Starkville, MS. Join us for a full day of incredible live music, food tracks, arts, and more!",
+      }
+      </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
