@@ -13,7 +13,7 @@ class HelpOut extends React.Component {
                 href="https://docs.google.com/forms/d/1r8VzGJi35fCufK5O9Jd9BTJWLZ0t_x8WvT0p8V75_-k/edit?usp=sharing" 
                 target="_blank" className="help-btn">Become a Vendor!</a>
                 <a 
-                href="https://docs.google.com/forms/d/1r8VzGJi35fCufK5O9Jd9BTJWLZ0t_x8WvT0p8V75_-k/edit?usp=sharing" 
+                href="https://docs.google.com/forms/d/10kLc7zO0haxFtcIW-RybcpGwRcYEPlcOCLGx5tFmlTI/edit?usp=sharing" 
                 target="_blank" className="help-btn">Become a Volunteer!</a>
             </div>
         )
