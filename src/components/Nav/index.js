@@ -37,12 +37,12 @@ export default function Nav() {
                         <a href="#contact">contact</a>
                     </li> 
                     <li className='social-icons'>
-                        <a href="https://www.facebook.com/Hayday-Music-Fest-112492490933609" className='socials' target="_blank">
+                        <a href="https://facebook.com/Hayday-Music-Fest-112492490933609" className='socials' target="_blank">
                             <div className="social-icons">
                                 <img src={fb} />
                             </div>
                         </a>
-                        <a href="https://www.instagram.com/hayday_musicfest/" className='socials' target="_blank">
+                        <a href="https://instagram.com/hayday_musicfest/" className='socials' target="_blank">
                             <div className="social-icons">
                                 <img src={ig} />
                             </div>
