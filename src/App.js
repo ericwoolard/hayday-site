@@ -49,9 +49,9 @@ function App() {
       <header className="App-header">
         <Masthead />
       </header>
-      {/* <section className="flier-section" id="lineup">
+      <section className="flier-section" id="lineup">
         <LineupFlier />
-      </section> */}
+      </section>
       <section className='purchase' id="tickets">
         <div className="container">
           <TicketCard 
