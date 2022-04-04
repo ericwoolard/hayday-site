@@ -15,11 +15,11 @@ export default function Nav() {
         <div>
             <div className="navigation">
                 <ul onClick={toggleHamburger}>
-                    {/* <li>
-                        <a href="#lineup">lineup</a>
-                    </li> */}
                     <li>
                         <a href="#tickets">tickets</a>
+                    </li>
+                    <li>
+                        <a href="#lineup">lineup</a>
                     </li>
                     <li>
                         <a href="#venue">venue</a>
